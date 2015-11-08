@@ -41,7 +41,7 @@ assert.dirname(a, b);
 **Example**
 
 ```js
-assert.dirname('a/b/c.js', 'a/b/c.js');
+assert.dirname('a/b/c.js', 'a/b/c');
 //=> true
 ```
 
@@ -131,6 +131,7 @@ assert.segments(a, b, 2);
 **Example**
 
 ```js
+// b/c.js === 'b/c.js'
 assert.segments('a/b/c.js', 'a/b/c.js');
 //=> true
 ```
