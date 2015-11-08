@@ -25,9 +25,18 @@
   "devDependencies": {
     "mocha": "*"
   },
+  "keywords": [
+    "assert",
+    "path"
+  ],
   "verb": {
     "related": {
-      "list": []
+      "list": [
+        "relative",
+        "is-relative",
+        "is-absolute",
+        "normalize-path"
+      ]
     }
   }
 }

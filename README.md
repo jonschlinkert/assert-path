@@ -187,6 +187,11 @@ assert.isRelative(path.resolve('a/b/c.js'));
 
 ## Related projects
 
+* [is-absolute](https://www.npmjs.com/package/is-absolute): Return true if a file path is absolute. | [homepage](https://github.com/jonschlinkert/is-absolute)
+* [is-relative](https://www.npmjs.com/package/is-relative): Returns `true` if the path appears to be relative. | [homepage](https://github.com/jonschlinkert/is-relative)
+* [normalize-path](https://www.npmjs.com/package/normalize-path): Normalize file path slashes to be unix-like forward slashes. Also condenses repeat slashes to a… [more](https://www.npmjs.com/package/normalize-path) | [homepage](https://github.com/jonschlinkert/normalize-path)
+* [relative](https://www.npmjs.com/package/relative): Get the relative filepath from path A to path B. Calculates from file-to-directory, file-to-file, directory-to-file,… [more](https://www.npmjs.com/package/relative) | [homepage](https://github.com/jonschlinkert/relative#readme)
+
 ## Running tests
 
 Install dev dependencies:
